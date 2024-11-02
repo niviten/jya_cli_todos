@@ -1,7 +1,6 @@
 package cmd
 
 import (
-	"doem/cmd/list"
 	"fmt"
 
 	"github.com/spf13/cobra"
@@ -24,5 +23,5 @@ func Execute() {
 }
 
 func init() {
-	rootCmd.AddCommand(list.GetCommand())
+	rootCmd.AddCommand(listCmd)
 }

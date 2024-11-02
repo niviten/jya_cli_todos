@@ -1,4 +1,4 @@
-package list
+package cmd
 
 import (
 	"doem/internal/db"
@@ -38,8 +38,4 @@ var listCmd = &cobra.Command{
 		}
 		return nil
 	},
-}
-
-func GetCommand() *cobra.Command {
-	return listCmd
 }
